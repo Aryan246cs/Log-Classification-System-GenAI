@@ -1,0 +1,26 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts
+*.pt
+*.bin
+*.onnx
+*.pkl
+*.joblib
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# OS
+.DS_Store
+EOF
